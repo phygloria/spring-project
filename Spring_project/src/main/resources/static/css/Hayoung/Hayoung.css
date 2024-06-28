@@ -1,0 +1,129 @@
+
+.posterGroup {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    position: relative;
+
+}
+/* 포스터 이미지 */
+.poster-img {
+    width: 350px;
+    height: 500px;
+    display: flex;
+}
+
+/* 타이틀 */
+.main-title {
+    font-family: "GenAR102";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 100px;
+    text-align: center;
+    color: #484848;
+    margin: 50px;
+}
+
+/*.sub-title {*/
+/*    font-family: "GenAR102";*/
+/*    font-style: normal;*/
+/*    font-size: 20px;*/
+/*    text-align: center;*/
+/*    color: #484848;*/
+/*    margin: 50px;*/
+/*}*/
+
+/* 영화정보 */
+.movie-info {
+
+    font-family: "GenAR102";
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    color: #7043B8;
+}
+.part-box p{
+    text-indent: 16px;
+}
+
+
+/* 명대사 구역 */
+.best-bg {
+    height: 250px;
+    padding: 30px 60px;
+    background: #cccccc;
+    border-radius: 10px;
+    display: flex;
+    gap: 30px;
+}
+/* 명대사 왼쪽 라인 */
+.line-DY{
+    width: 6px;
+    border-radius: 4px;
+    background-color: midnightblue;
+}
+.best-ment {
+    font-family: "GenAR102";
+    font-style: normal;
+    font-size: 20px;
+    line-height: 70px;
+    margin-top: 20px;
+    letter-spacing: 0.5px;
+    color: midnightblue;
+}
+
+.h3 {
+    font-family: "GenAR102";
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+/* 시놉시스 구역 */
+.synop-bg {
+    height: 250px;
+    padding: 30px 60px;
+    background:
+    border-radius: 10px;
+    display: flex;
+    gap: 30px;
+}
+
+
+.story-title {
+    font-family: "GenAR102";
+    font-style: normal;
+    font-size: 30px;
+    line-height: 50px;
+    margin-top: 25px;
+    letter-spacing: 0.5px;
+    color: midnightblue;
+
+
+}
+
+.story-text {
+    font-family: "GenAR102";
+    font-style: normal;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+    color: midnightblue;
+
+}
+
+
+
+
+
+.home-btn {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
